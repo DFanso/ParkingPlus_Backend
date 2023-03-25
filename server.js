@@ -6,6 +6,7 @@ const userRouter = require('./routes/userRoutes');
 const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 const parkSpot = require('./routes/parkingSpotRoute');
 const bookingRoute = require('./routes/bookingRoute');
+const iotBackend = require('./routes/iotBackend');
 
 dotenv.config();
 connectDB()
@@ -85,6 +86,7 @@ app.use((req, res, next) => {
 app.use('/api/user', userRouter)
 app.use('/api/create-park', parkSpot)
 app.use('/api/bookings', bookingRoute);
+app.use('/upload', iotBackend);
 
 // Error
 app.use(notFound)

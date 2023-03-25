@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "onetap-381010",
+  "private_key_id": "3fcf5cbcb15a497b3c4ab1311c038bea18ff5e70",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC2mrlMHdpcawLt\nLFcOayU8QXWjqPs4FcCggV81kLRJlL3s1aQDmV0bu6C6wqXSubA06jVFf6hSFZGi\n1E9+ELGu/BOFhXfbyY3iVkfF5sGtpy7rLZPKcySsUHcPVeR3j5fezg5JBAvVoW/2\nvDITEzvvmFQKWq07N9pTzqtHkgCGjqo25mAtV+V0QzXmm3Qq4B9RQTsrOGnPwbK2\nR/XvNkXtK61l/gfJ6guQb/7qFlEywVZ4Qz2zOAnGKV7eOZ/MX4olc9wCC1ICxJCx\niTuRMfWr7j8iPQLZDUPWwB75Ee00ahQa7KVPHdCoKuwuArQhl1Awm85rQr6otwi9\nsXrnVFtPAgMBAAECggEAEughnXRN2ASAe2bRkL2epQbbaQRQa/XcnwHQ24P4bCdJ\neaHZPJd+4NCO4NInRz1QtaSLutQal9KB5MvPe0G76V6noCCPUM4lXF+182i5ea3L\nbtr7ksT/Rr7Xb7AOBXnJrhkZuOJWs1o8HzOh36sTKUiqvZ5hPLYYwKqvvgEBAELN\nI1yqbhgobOXeqUSiWiL4DF5cRXPDROYwoEPrEjzFUYOqKqHshmy47ppX5FUh0m22\nygtLTVYlJOPGotM9a2uGKpXmwZs9Faz71hts+BgyYA1PRWmtrAZEocJV0jSRYH+M\nNYnZj2eSB7GpPLzKp0lQ4jvvf6/huVnGak/FC/IdqQKBgQDh5sPaSwYKgJrlN7GD\n88RR0ClSMsuDzK6D1GbslDUUSYohGGes1/BAVK7irqAWqXHkD9YDAfKbFA63Ow4p\nOLjEkAenpuhJzh0s78TOnC+Zx3xtmjNEP+g9xbc6meEkfg16Tw0PdLNMztSZaoV/\nYm3rMIOnUc1CT8dfm1QSxl/PewKBgQDO7yWv8hepSfb6qVTri7rTbVwLldg0EYg0\nKNJ8jdQNTDgdQzWHw4meilDa47V6TFyXuod2GcHJRqL9zq+PU14TYmN9Rl/1pb41\nH5iSZmJHqVn8/YVCFikCsf16DO6TuqpXVNs7ArQAqebBfRpPV000Bek7HxDaeqHg\nlstxEW5RPQKBgQDDURsVqrhWbEuA1F6PkDy14B1aDMEZ++cH5KX490vNdqgPZWJ+\nd1YqyQ1MwV95OJhYb7jCcPSqUPVIR68+xOQ8T6vOsOk2pxdiuwyW90PQ2kIjIagh\n4n+SqVh7OoEHZFWS4raQHn7IciwvWYKDWT9gklnCWV/3bbMcXtiaQxqj8QKBgQCP\nnDRBePemyugWaXG/zkcn99tLRwC2kfw+hp4dRqiFWgIPfNcnkzJsznzyi9kkON6B\nhjgAZDuyncz763a3NxowxbVZ+X8bEZ2BbJ4L6/YE2ajUBHV4ubxYXIIXM+ZWq9MP\nrJpAx814MHEuks2xhlrT4c5M83BUz4qMPNqPa5Nt2QKBgDABNBAMP/RybWV1L+Ov\nzTTCMQUoR0txbs6Gy4kXUq9ubqPXc48AbqbYatRvhq4nah/gtvbZhb/Q3v+PYt4J\nVBM3Q6xbFBEB5A2jPfkodqL5gFOqzurxfAHkofzK/2XBbukTnODfP8lwmtgA79Vl\n8+841jLsG5Bn2dk7uzVJDV3U\n-----END PRIVATE KEY-----\n",
+  "client_email": "onetap@onetap-381010.iam.gserviceaccount.com",
+  "client_id": "110642974735140919456",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/onetap%40onetap-381010.iam.gserviceaccount.com"
+}
