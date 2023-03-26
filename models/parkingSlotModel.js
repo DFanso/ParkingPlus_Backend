@@ -1,3 +1,5 @@
+const mongoose = require('mongoose');
+
 const parkingSpotSchema = new mongoose.Schema({
     // ... other fields
     available: {

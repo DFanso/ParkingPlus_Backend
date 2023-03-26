@@ -46,12 +46,15 @@ const getParkingSpot = async (req, res) => {
   
   const getAvailability = async (req, res) => {
     try {
-      const parkingSpot = await ParkingSpot.findById(req.params.id);
-      res.json({ available: parkingSpot.availableSpots > 0 });
+      const parkingSlot = await ParkingSlot.findById(req.params.id);
+      res.json({ available: parkingSlot.available });
     } catch (error) {
-      res.status(500).json({ message: 'Error fetching parking spot availability' });
+      console.error('Error fetching parking spot availability:', error);
+      res.status(500).json({ message: 'Error fetching parking spot availability', error: error.message });
     }
   };
+  
+  
     
  // Export the controller functions 
   module.exports = {
