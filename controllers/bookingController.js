@@ -30,6 +30,8 @@ const getInactiveSessions = async (req, res) => {
   }
 };
 
+
+
 module.exports = {
   getBooking, getInactiveSessions
 };
