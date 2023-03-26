@@ -1,6 +1,6 @@
 // Importing the ParkingSpot model
 const ParkingSpot = require('../models/parkingSpotModel');
-
+const ParkingSlot = require('../models/parkingSlotModel');
 // Controller functions
 
 // createParkingSpot: Handles the creation of a new parking spot
@@ -44,9 +44,19 @@ const getParkingSpot = async (req, res) => {
     }
   };
   
+  const getAvailability = async (req, res) => {
+    try {
+      const parkingSpot = await ParkingSpot.findById(req.params.id);
+      res.json({ available: parkingSpot.availableSpots > 0 });
+    } catch (error) {
+      res.status(500).json({ message: 'Error fetching parking spot availability' });
+    }
+  };
+    
  // Export the controller functions 
   module.exports = {
     createParkingSpot,
     getParkingSpot,
+    getAvailability
   }
 
